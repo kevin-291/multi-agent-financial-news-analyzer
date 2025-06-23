@@ -6,19 +6,6 @@ This project implements a sophisticated multi-agent system using Pydantic AI to 
 
 ## Architecture
 
-### Agent Workflow
-```
-Financial Article Input
-         ↓
-    [Entity Agent] ← Extracts companies, tickers, investments
-         ↓
-   [Sentiment Agent] ← Analyzes emotional tone & confidence
-         ↓
-    [Impact Agent] ← Predicts market effects using combined data
-         ↓
-    Unified Output
-```
-
 ### Agent Specializations
 
 1. **Entity Extraction Agent**
