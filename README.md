@@ -85,7 +85,7 @@ entity_result = await entity_extraction_agent(article).run(article)
 
 ```
 financial-news-analyzer/
-├── main.py                      # Main pipeline orchestrator
+├── main.py                           # Main pipeline orchestrator
 ├── agents/
 │   ├── entity_extraction_agent.py    # Entity extraction specialist
 │   ├── sentiment_analysis_agent.py   # Sentiment analysis specialist
@@ -95,13 +95,16 @@ financial-news-analyzer/
 │   ├── evaluation.py                 # Comprehensive evaluation suite
 │   └── eval_models.py                # Pydantic validation models
 ├── docs/
-│   ├── architecture.md               # System architecture details
+│   ├── system_architecture.md        # System architecture details
 │   ├── design_decisions.md           # Design rationale
 │   ├── prompt_iterations.md          # Prompt engineering journey
-│   └── test_case_analysis.md         # Interesting test behaviors
+│   ├── test_case_analysis.md         # Interesting test behaviors
+│   ├── multi_agent_framework.png     # System architecture diagram
+|   ├── documentation.md              # Project documentation
+|   └── problems_faced.md             # Challenges and solutions
 ├── ai_chat_history.txt               # Development conversation log
-├── what_didnt_work.md               # Challenges and solutions
-└── README.md                        # This file
+├── requirements.txt                  # Project requirements
+└── README.md                         # This file
 ```
 
 ## Key Features
