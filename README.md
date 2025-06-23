@@ -45,7 +45,7 @@ Financial Article Input
 
 ### Dependencies
 ```bash
-pip install pydantic-ai pydantic-evals asyncio
+pip install -r requirements.txt
 ```
 
 ### Model Setup
