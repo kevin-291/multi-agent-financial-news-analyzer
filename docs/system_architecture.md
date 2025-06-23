@@ -41,9 +41,7 @@ graph TD
     D --> F[Market Impact Agent]
     E --> F
     F --> G[Market Predictions]
-    D --> H[Combined Output]
-    E --> H
-    G --> H
+    G --> H[Combined Output]
 ```
 
 ### Agent Communication Protocol
