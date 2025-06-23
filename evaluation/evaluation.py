@@ -1,7 +1,6 @@
 import asyncio
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from dataclasses import dataclass
 from pydantic_evals import Case, Dataset
 from pydantic_evals.evaluators import Evaluator, EvaluatorContext, IsInstance
@@ -11,6 +10,8 @@ from agents.sentiment_analysis_agent import sentiment_analysis_agent
 from agents.market_impact_agent import market_impact_agent
 from agents.main_model import model
 from main import extract_json_from_response
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 ollama_model = model()
